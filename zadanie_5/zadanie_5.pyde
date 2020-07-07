@@ -20,7 +20,7 @@ class Pokretlo():
 def setup():
     size(400, 400)
     global pokretlo_piekarnika
-    pokretlo_piekarnika = Pokretlo(width/2, height/2, 200)
+    pokretlo_piekarnika = Pokretlo(width/2, height/2, 200) # obiekty miały być dwa
 def mouseClicked():
     pokretlo_piekarnika.wcisnij()
 def mouseWheel(event):
@@ -28,4 +28,7 @@ def mouseWheel(event):
 def draw():
     background(300)
     pokretlo_piekarnika.rysuj()
-         
+
+#zmiana nazw nie jest pomysłem na klasę, pomijając rzeczy przekopiowane zostaje
+#0,5pkt
+    
